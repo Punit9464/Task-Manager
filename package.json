@@ -1,0 +1,38 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A personal task manager to manage, track your all tasks efficiently with self hostable light weight application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Punit9464/Task-Manager.git"
+  },
+  "keywords": [
+    "Task",
+    "Manager",
+    "Management",
+    "Scheduler",
+    "Easier",
+    "Efficient",
+    "Light",
+    "weight"
+  ],
+  "author": "Punit",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Punit9464/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/Punit9464/Task-Manager#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
